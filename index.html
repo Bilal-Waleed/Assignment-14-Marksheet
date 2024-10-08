@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="marksheet-container">
+        <h1>Marksheet</h1>
+        <div class="student-info">
+            <div class="left-info">
+                <p><strong>Name:</strong> <span id="studentName"></span></p>
+                <p><strong>Father's Name:</strong> <span id="fatherName"></span></p>
+                <p><strong>Roll Number:</strong> <span id="rollNumber"></span></p>
+                <p><strong>Class:</strong> <span id="class"></span></p>
+                <p><strong>Institute:</strong> <span id="institute"></span></p>
+            </div>
+        </div>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Total Marks</th>
+                        <th>Obtained Marks</th>
+                        <th>Percentage</th>
+                    </tr>
+                </thead>
+                <tbody id="marksTable"></tbody>
+            </table>
+        </div>
+        <p class="grade" id="grade"></p>
+        <p class="scholarship" id="scholarship"></p>
+        <p class="remarks" id="remarks"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.marksheet-container {
+    background-color: #333;
+    color: #fff;
+    width: 85%;
+    max-width: 850px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-align: left;
+}
+
+h1 {
+    font-size: 35px;
+    color: #f1c40f;
+    text-align: center;
+    margin: 15px 0;
+}
+.student-info {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.left-info p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 0.8;
+}
+strong{
+    color: #f1c40f;
+}
+
+.table {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #444;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #777;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+th {
+    background-color: #555;
+    font-weight: bold;
+    color: #f1c40f;
+}
+
+/* th:nth-child(2), th:nth-child(3), td:nth-child(2), td:nth-child(3) {
+    width: 12%;
+} */
+
+.grade, .scholarship, .remarks {
+    display: block;
+    margin: 5px auto;
+    color: #f1c40f;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 1025px) {
+    .marksheet-container{
+        padding: 25px;
+    }
+}
+@media (max-width: 768px) {
+    .marksheet-container {
+        padding: 15px;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+
+    .left-info p {
+        font-size: 14px;
+    }
+
+    .grade, .scholarship, .remarks {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .marksheet-container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .marksheet-container {
+        overflow-y: auto;
+    }
+
+    table, th, td {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 426px) {
+    h1{
+        font-size: 30px;
+    }
+    .left-info p{
+        font-size: 12px;
+    }
+    .grade, .scholarship, .remarks {
+        font-size: 12px;
+    }
+    .student-info{
+        padding-left: 5px;
+    }
+
+}
+@media (max-width: 376px) {
+    h1{
+        font-size: 25px;
+    }
+    .left-info p{
+        font-size: 10px;
+    }
+    .grade, .scholarship, .remarks {
+        font-size: 10px;
+    }
+}
