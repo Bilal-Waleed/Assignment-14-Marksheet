@@ -87,6 +87,15 @@ th:nth-child(2), th:nth-child(3), td:nth-child(2), td:nth-child(3) {
     text-align: center;
 }
 
+.Copyright {
+    text-align: center;
+    margin-top: 20px;
+    color: #f1c40f; 
+    font-size: 10px; 
+    letter-spacing: 1px;
+}
+
+
 @media (max-width: 1025px) {
     .marksheet-container{
         padding: 25px;
@@ -139,6 +148,11 @@ th:nth-child(2), th:nth-child(3), td:nth-child(2), td:nth-child(3) {
         padding-left: 5px;
     }
 
+    .Copyright{
+        font-size: 8px;
+        letter-spacing: 0.5px;
+    }
+
 }
 @media (max-width: 376px) {
     h1{
@@ -150,4 +164,5 @@ th:nth-child(2), th:nth-child(3), td:nth-child(2), td:nth-child(3) {
     .grade, .scholarship, .remarks {
         font-size: 10px;
     }
+    
 }
