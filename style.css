@@ -75,9 +75,9 @@ th {
     color: #f1c40f;
 }
 
-/* th:nth-child(2), th:nth-child(3), td:nth-child(2), td:nth-child(3) {
+th:nth-child(2), th:nth-child(3), td:nth-child(2), td:nth-child(3) {
     width: 12%;
-} */
+}
 
 .grade, .scholarship, .remarks {
     display: block;
